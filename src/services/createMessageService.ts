@@ -15,7 +15,7 @@ class createMessageService {
 
         const infoWS = {
             text: message.text,
-            user_id: message.user_id,
+            id: message.id,
             created_at: message.create_at,
             user: {
                 name: message.user.name,
